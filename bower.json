@@ -1,0 +1,22 @@
+{
+  "name": "yoChatv2",
+  "version": "2.0.0",
+  "description": "This is a basic chat app using AngularFire and Polymer.",
+  "main": "index.html",
+  "keywords": [
+    "chat",
+    "app",
+    "party",
+    "fun",
+    "friends",
+    "social"
+  ],
+  "authors": [
+    "Chris Pena"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "angular-route": "~1.4.1"
+  }
+}

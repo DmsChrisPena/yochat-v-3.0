@@ -1,0 +1,22 @@
+<div class="container">
+	<div class="row">
+		<div class="center-block text-center">
+			<h2 ng-show="checkName()">Enter your name below</h2>
+			<h2 ng-hide="checkName()">Welcome {{yourName}}</h2>
+			<img width="150px" ng-show="checkImage()" class="center-block img-responsive" style="border-radius: 6px;" ng-src="img/no-image.png">
+			<img width="150px" ng-hide="checkImage()" class="center-block img-responsive" style="border-radius: 6px;" ng-src="{{ yourImage }}">
+			<h4>You have <strong style="color: #e74c3c;">{{ messages.length }}</strong> new messages.</h4>
+			<label>Full Name: 
+				<input class="form-control" ng-model="yourName" type="text" id="yourNewName"  placeholder="Enter your Name...">
+			</label> <br />
+			<label>Image URL: 
+				<input class="form-control" ng-model="yourImage" type="text" id="yourNewName"  placeholder="Enter your Image URL...">
+			</label>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+</script>
